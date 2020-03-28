@@ -1,0 +1,6 @@
+PORT = 4000
+DB_HOST = http://localhost
+DB_USERNAME = root
+DB_PASSWORD = 
+DB_NAME = news_blog
+SECRET = This is my password script
