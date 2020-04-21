@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wp-server": "nodemon server.js",
+    "start-watch": "cd ../client && npm run start",
+    "dev": "concurrently --kill-others \"npm run start-watch\" \"npm run wp-server\""
   },
   "keywords": [],
   "author": "",
